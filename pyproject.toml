@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "env-setup-playground"
+version = "0.1.0"
+description = "Test env config for a python project"
+authors = ["Xiangshi Yin <piupiuyin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "env_setup_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+ipython = "^8.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
